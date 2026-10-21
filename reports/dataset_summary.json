@@ -1,0 +1,212 @@
+{
+  "rows": 1000,
+  "columns": [
+    "Year",
+    "Month",
+    "Day",
+    "Season",
+    "Temperature_C",
+    "Humidity_pct",
+    "Pressure_hPa",
+    "Wind_Speed_kmph",
+    "Cloud_Cover_pct",
+    "Rainfall_mm",
+    "Visibility_km",
+    "Solar_Radiation_Wm2",
+    "Air_Quality_Index",
+    "Dew_Point_C",
+    "Climate_Condition",
+    "Day_Of_Year"
+  ],
+  "dtypes": {
+    "Year": "float64",
+    "Month": "float64",
+    "Day": "float64",
+    "Season": "string",
+    "Temperature_C": "float64",
+    "Humidity_pct": "float64",
+    "Pressure_hPa": "float64",
+    "Wind_Speed_kmph": "float64",
+    "Cloud_Cover_pct": "float64",
+    "Rainfall_mm": "float64",
+    "Visibility_km": "float64",
+    "Solar_Radiation_Wm2": "float64",
+    "Air_Quality_Index": "float64",
+    "Dew_Point_C": "float64",
+    "Climate_Condition": "string",
+    "Day_Of_Year": "float64"
+  },
+  "missing_values": {
+    "Year": 0,
+    "Month": 0,
+    "Day": 0,
+    "Season": 0,
+    "Temperature_C": 0,
+    "Humidity_pct": 0,
+    "Pressure_hPa": 0,
+    "Wind_Speed_kmph": 0,
+    "Cloud_Cover_pct": 0,
+    "Rainfall_mm": 0,
+    "Visibility_km": 0,
+    "Solar_Radiation_Wm2": 0,
+    "Air_Quality_Index": 0,
+    "Dew_Point_C": 0,
+    "Climate_Condition": 0,
+    "Day_Of_Year": 0
+  },
+  "duplicate_rows_after_cleaning": 0,
+  "numeric_summary": {
+    "Year": {
+      "count": 1000.0,
+      "mean": 2019.834,
+      "std": 3.0828473766873294,
+      "min": 2015.0,
+      "25%": 2017.0,
+      "50%": 2020.0,
+      "75%": 2022.0,
+      "max": 2025.0
+    },
+    "Month": {
+      "count": 1000.0,
+      "mean": 6.454,
+      "std": 3.5256650882229748,
+      "min": 1.0,
+      "25%": 3.0,
+      "50%": 6.0,
+      "75%": 10.0,
+      "max": 12.0
+    },
+    "Day": {
+      "count": 1000.0,
+      "mean": 14.314,
+      "std": 8.170689332251238,
+      "min": 1.0,
+      "25%": 7.0,
+      "50%": 14.0,
+      "75%": 22.0,
+      "max": 28.0
+    },
+    "Temperature_C": {
+      "count": 1000.0,
+      "mean": 23.88292,
+      "std": 5.421196218736418,
+      "min": 11.27,
+      "25%": 19.322499999999998,
+      "50%": 23.91,
+      "75%": 28.465,
+      "max": 35.37
+    },
+    "Humidity_pct": {
+      "count": 1000.0,
+      "mean": 67.76464,
+      "std": 9.810081629220624,
+      "min": 37.36,
+      "25%": 60.8725,
+      "50%": 67.755,
+      "75%": 74.35249999999999,
+      "max": 97.42
+    },
+    "Pressure_hPa": {
+      "count": 1000.0,
+      "mean": 1012.86412,
+      "std": 5.45990761980611,
+      "min": 995.94,
+      "25%": 1008.9475,
+      "50%": 1012.865,
+      "75%": 1016.6925000000001,
+      "max": 1029.7
+    },
+    "Wind_Speed_kmph": {
+      "count": 1000.0,
+      "mean": 9.19436,
+      "std": 3.4950009187154474,
+      "min": 0.5,
+      "25%": 6.695,
+      "50%": 9.184999999999999,
+      "75%": 11.43,
+      "max": 20.27
+    },
+    "Cloud_Cover_pct": {
+      "count": 1000.0,
+      "mean": 40.81646,
+      "std": 14.728939232657568,
+      "min": 0.0,
+      "25%": 31.27,
+      "50%": 40.754999999999995,
+      "75%": 51.1325,
+      "max": 83.49
+    },
+    "Rainfall_mm": {
+      "count": 1000.0,
+      "mean": 15.809439999999999,
+      "std": 25.785053920674514,
+      "min": 0.0,
+      "25%": 0.01,
+      "50%": 2.87,
+      "75%": 23.4525,
+      "max": 163.36
+    },
+    "Visibility_km": {
+      "count": 1000.0,
+      "mean": 6.836690000000001,
+      "std": 1.6542794154205887,
+      "min": 1.53,
+      "25%": 5.78,
+      "50%": 6.875,
+      "75%": 8.0025,
+      "max": 12.59
+    },
+    "Solar_Radiation_Wm2": {
+      "count": 1000.0,
+      "mean": 255.66162,
+      "std": 129.50455576055361,
+      "min": 20.0,
+      "25%": 160.57,
+      "50%": 247.79000000000002,
+      "75%": 344.255,
+      "max": 632.54
+    },
+    "Air_Quality_Index": {
+      "count": 1000.0,
+      "mean": 117.22254000000001,
+      "std": 21.273723620115614,
+      "min": 38.99,
+      "25%": 102.07499999999999,
+      "50%": 117.435,
+      "75%": 131.45999999999998,
+      "max": 179.51
+    },
+    "Dew_Point_C": {
+      "count": 1000.0,
+      "mean": 17.44734,
+      "std": 5.711650643857472,
+      "min": 3.25,
+      "25%": 12.5,
+      "50%": 17.46,
+      "75%": 21.9125,
+      "max": 30.59
+    },
+    "Day_Of_Year": {
+      "count": 1000.0,
+      "mean": 179.632,
+      "std": 107.52097160710247,
+      "min": 1.0,
+      "25%": 84.0,
+      "50%": 178.0,
+      "75%": 275.25,
+      "max": 363.0
+    }
+  },
+  "climate_condition_counts": {
+    "Normal": 549,
+    "Cool": 292,
+    "Rainy": 130,
+    "Hot": 23,
+    "Cloudy": 6
+  },
+  "limitations": [
+    "No geographic coordinates or station identifier are assumed.",
+    "Continuity and geographic consistency of dated rows are unverified.",
+    "Climate_Condition labels are not verified official heatwave labels."
+  ]
+}
