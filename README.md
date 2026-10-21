@@ -137,20 +137,21 @@ reports/                       Metrics, dataset summary, and diagnostic plots
 tests/                         Basic preprocessing, prediction, and risk tests
 ```
 
-## Screenshot files to add
+## Overview metrics and chart
+<img width="2191" height="1608" alt="image" src="https://github.com/user-attachments/assets/ecbbd71b-3f86-4ff7-91f2-43f0446f00e2" />
 
-Put the screenshots in `docs/screenshots/` using these names. Each one belongs in the matching dashboard section above; the Markdown image lines are ready but commented out until the image files exist.
+## Prediction form and a generated estimate 
+<img width="2191" height="1608" alt="image" src="https://github.com/user-attachments/assets/23f9f84b-211e-4e71-b682-1ad5a28bdf5b" />
 
-| File name | Capture this page |
-|---|---|
-| `01-overview.png` | Overview metrics and charts |
-| `02-ml-predictions.png` | Prediction form and a generated estimate |
-| `03-climate-analytics.png` | Seasonal comparison and correlations |
-| `04-heatwave-monitoring.png` | Risk counts and location-data notice |
-| `05-early-warning.png` | Advisory with an audience selected |
-| `06-model-evaluation.png` | Model comparison metrics |
+## Seasonal comparison and correlations 
+<img width="2191" height="1608" alt="image" src="https://github.com/user-attachments/assets/797f4621-91fb-41eb-84b0-c6d6953e327a" />
 
-After adding each image, remove the surrounding `<!--` and `-->` from its matching image line above. GitHub will then render it in place.
+## Risk counts and location-data notice 
+<img width="2191" height="1608" alt="image" src="https://github.com/user-attachments/assets/7ebe488f-4911-410a-b570-d41d727ec4b1" />
+
+## Model comparison metrics
+<img width="2191" height="1608" alt="image" src="https://github.com/user-attachments/assets/3a1afdf3-9e8f-4801-a71c-ff830d22323e" />
+
 
 ## Limitations and next steps
 
